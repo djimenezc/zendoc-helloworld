@@ -1,3 +1,5 @@
+'use strict';
+
 angular.module('zendocApp').factory(
 		'myService',
 		function() {
@@ -7,7 +9,7 @@ angular.module('zendocApp').factory(
 				 */
 				showLoginMessage : function(name) {
 
-					return name && name != 'world';
+					return name && name !== 'world';
 				}
 			};
 		});
