@@ -318,7 +318,8 @@ module.exports = function (grunt) {
         singleRun: true
       },
       e2e: {
-          configFile: 'karma-e2e.conf.js'
+          configFile: 'karma-e2e.conf.js',
+          singleRun: true
       }
     },
     cdnify: {
