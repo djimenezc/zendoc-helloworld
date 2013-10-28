@@ -5,5 +5,6 @@
 describe('PhoneCat App', function() {
 
   it('should redirect index.html to index.html#/phones', function() {
+	  browser().navigateTo('/');
   });
 });

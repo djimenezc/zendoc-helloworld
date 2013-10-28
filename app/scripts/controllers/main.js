@@ -6,6 +6,6 @@ angular.module('zendocApp').controller(
 
 			$scope.name = $routeParams.username ? $routeParams.username
 					: 'world';
-			$scope.showLoginBlock=myService.showLoginMessage($routeParams.username);
-			console.log('showLoginBlock '+$scope.showLoginBlock);
+//			$scope.showLoginBlock=myService.showLoginMessage($routeParams.username);
+//			console.log('username param: '+$routeParams.username+' showLoginBlock '+$scope.showLoginBlock);
 		});

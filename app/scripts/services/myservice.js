@@ -5,7 +5,7 @@ angular.module('zendocApp').factory(
 		function() {
 			return {
 				/**
-				 * Calculate the login message
+				 * Decide if the login message must be showed
 				 */
 				showLoginMessage : function(name) {
 
